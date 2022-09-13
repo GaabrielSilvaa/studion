@@ -1,10 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Rubik+Moonrocks&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Rubik+Moonrocks&family=Splash&display=swap');
 
 * {
     box-sizing: border-box;
 }
 
 :root {
+    --color-primary: #ffc500;
     font-family: 'montserrat', sans-serif;
     font-size: 16px;
     
@@ -12,6 +13,7 @@
 
 body {
     margin: 0;
+    padding-top: 7.75rem;
 }
 
 ul {
@@ -30,6 +32,7 @@ ul {
     left: 0;
     
     width: 100vw;
+    height: 7.75rem;
     padding: 0 1rem;
     
     background-color: #000 ; /* vermelho, verde, azul, transparencia - 0 ao f */
@@ -54,18 +57,22 @@ ul {
 }
 
 .navbar__links a:hover {
-    color: var(--color-primary);
+    color: var(--color-primary)
 }
 
-.logo--studion {
+.logo-studion {
+    font-size: 2.375rem;
     font-weight: 900;
+    line-height: 1ch; /* relativa ao tamanho da altura do glifo 0 da fonte */
     text-transform: uppercase;
+    text-align: right;
 }
 
 .logo-studion__subtitle {
     font-size: 0.875rem;
-    font-weight: 400;
-    text-align: right;
+    font-weight: 300;
+    float: right;
+
     
 }
 
