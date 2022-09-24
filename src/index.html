@@ -1,20 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Studion</title>
-</head>
-<body>
-    <h1>Hello World!</h1>
-    <h2>Hello World!</h2>
-    <h3>Hello World!</h3>
-    <h4>Hello World!</h4>
-    <h5>Hello World!</h5>
-    <h6>Hello World!</h6>
+  </head>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab exercitationem quas voluptates distinctio perferendis quaerat consequatur adipisci reiciendis odio alias soluta quo consequuntur expedita dicta, velit ad nam iusto cupiditate?</p>
-    
-</body>
+  <body>
+    <nav class="navbar">
+      <div class="container navbar__container">
+       <h1 class="logo-studion">
+        Studi<span class="copy--primary">on</span>
+        <span class="logo-studion__subtitle">Eventos</span>
+      </h1>
+      <ul class="navbar__links">
+        <li>
+          <a href="#empresa">
+             Empresa 
+            </a>
+        </li>
+        <li>
+          <a href="#eventos"> 
+            Eventos 
+          </a>
+        </li>
+        <li>
+          <a href="#galeria"> 
+            Galeria 
+          </a>
+        </li>
+        <li>
+          <a href="#depoimentos"> 
+            Depoimentos 
+          </a>
+        </li>
+        <li>
+          <a href="#contatos"> 
+            Contatos 
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+    <header>
+      <div id="slider">
+        <div class="slide">
+          <img
+           class="slide__background-image" 
+           src="./images/banner.jpg" \ng\student\assessments\
+           alt="Studion Banner"
+          />
+            <div class="slide__copy">
+                <h6>
+                  <span class="copy--primary">Próximo evento</span> - Dia 29 de
+                   outubro às 17h00
+                  </h6>
+                <h2><span class="copy--primary">Creative</span>Minds</h2>
+                <button class="btn btn--slide">Saiba Mais</button>
+            </div> 
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="counter" class="counter">
+        <ul class="container counter__container">
+          <li>
+            <h3>
+              + De 500
+              <small>
+                eventos realizados
+              </small>            
+            </h3>
+          </li>
+          <li>
+            <h3>
+              Mais de 1.000.000           
+              <small>
+                de ingressos vendidos
+              </small>
+            </h3>
+          </li>
+          <li>
+            <h3>+ De 300
+              <small>
+                empresas atendidas
+              </small>
+            </h3>
+          </li>
+        </ul>
+      </section>
+
+      <section class="container institutional">
+        <img
+         class="institutional__image"
+          src="./images/institutional.jpg"
+           alt="Studion institucional" 
+           />
+        <div class="institutional__copy">
+          <h6>Fazemos seu evento acontecer</h6>
+          <h4>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h4>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br />
+            Incidunt culpa dicta aperiam quos a? Molestias eum<br />
+            quos explicabo laudantium quis id voluptatum cupiditate.
+          </p>
+          
+          <button class="btn btn--institutional">Saiba mais</button>
+        </div>
+      </section>
+
+      <section class="quote">
+        <div class="container quote__container">
+         <div class="quote__copy">
+          <h6>
+            Você informa a temática e nós planejamos um evento com técnologia e
+          </h6>
+          <h2><span class="copy--primary">Muito+ </span>Diversão</h2>
+          <button class="btn btn--quote">Fazer cotação</button>
+         </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <h2>Studi<span>on</span><span>Eventos</span></h2>
+      <form>
+        <label>Receba news e promoções</label>
+        <input type="email" placeholder="email" />
+        <button type="submit">Enviar</button>
+      </form>
+      <ul>
+        <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+        <li><a href="https://youtube.com" target="_blank">Youtube</a></li>
+      </ul>
+      <hr />
+      <p>
+        <small>Studi<span>ON</span> - Todos os direitos reservados.</small>
+      </p>
+    </footer>
+  </body>
 </html>
